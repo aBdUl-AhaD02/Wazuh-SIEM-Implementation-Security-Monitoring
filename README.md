@@ -344,6 +344,49 @@ The project aims to develop practical SOC analyst skills including log analysis,
 
 ---
 
+### 10. FIM Events Detail View
+![FIM Events Detail](images/10-fim-events-detail.png)
+*Detailed File Integrity Monitoring events showing 4 hits over 24-hour period (Dec 21, 2025 @ 18:58:15.455 - Dec 22, 2025 @ 18:58:15.455):*
+
+**Event Details:**
+
+**Event 1:**
+- **Timestamp:** Dec 22, 2025 @ 18:44:06.352
+- **Agent:** hello
+- **Syscheck Path:** /root/.lesshst
+- **Event:** modified
+- **Description:** Integrity checksum changed
+- **Rule Level:** 7 (Medium)
+- **Rule ID:** 550
+
+**Event 2:**
+- **Timestamp:** Dec 22, 2025 @ 14:09:28.284
+- **Agent:** hello
+- **Syscheck Path:** /root/.bash_history
+- **Event:** modified
+- **Description:** Integrity checksum changed
+- **Rule Level:** 7 (Medium)
+- **Rule ID:** 550
+
+**Event 3:**
+- **Timestamp:** Dec 22, 2025 @ 14:04:54.035
+- **Agent:** hello
+- **Syscheck Path:** /root/.bash_history
+- **Event:** modified
+- **Description:** Integrity checksum changed
+- **Rule Level:** 7 (Medium)
+- **Rule ID:** 550
+
+**Event 4:**
+- **Timestamp:** Dec 22, 2025 @ 12:12:15.849
+- **Agent:** hello
+- **Syscheck Path:** /root/.bash_history
+- **Event:** added
+- **Description:** File added to the system
+- **Rule Level:** 5 (Low)
+- **Rule ID:** 554
+  
+---
 
 ### 11. Wazuh Alerts Discovery - 5,696 Events
 ![Wazuh Alerts Discovery](images/11-wazuh-alerts-discovery.png)
