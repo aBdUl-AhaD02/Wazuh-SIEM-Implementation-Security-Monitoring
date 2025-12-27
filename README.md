@@ -128,13 +128,13 @@ The project aims to develop practical SOC analyst skills including log analysis,
 ## 📸 Project Screenshots
 
 ### 1. Wazuh Endpoints Overview
-![Wazuh Endpoints Overview](images/01-wazuh-endpoints-overview.png)
+![Wazuh Endpoints Overview](https://github.com/aBdUl-AhaD02/Wazuh-SIEM-Implementation-Security-Monitoring/blob/main/Images/Wazuh%20Endpoint%20Overview.png)
 *Wazuh endpoints dashboard displaying 1 active agent running Ubuntu 22.04.5 LTS. The dashboard shows agent status breakdown with visualizations for TOP 5 OS (ubuntu) and TOP 5 GROUPS (default). Agent details include ID (001), Name (hello), IP address (192.168.56.103), cluster node (node01), and version (v4.14.1).*
 
 ---
 
 ### 2. File Integrity Monitoring Configuration
-![FIM Configuration](images/02-fim-configuration.png)
+![FIM Configuration](https://github.com/aBdUl-AhaD02/Wazuh-SIEM-Implementation-Security-Monitoring/blob/main/Images/File%20Integirity%20Monitoring.png)
 *File Integrity Monitoring (FIM) configuration in `/var/ossec/etc/ossec.conf` showing:*
 - **Disabled:** No (FIM is enabled)
 - **Frequency:** 43200 seconds (12 hours scan interval)
@@ -146,7 +146,7 @@ The project aims to develop practical SOC analyst skills including log analysis,
 ---
 
 ### 3. Vulnerability Detection Configuration
-![Vulnerability Detection Config](images/03-vulnerability-detection-config.png)
+![Vulnerability Detection Config](https://github.com/aBdUl-AhaD02/Wazuh-SIEM-Implementation-Security-Monitoring/blob/main/Images/Vulnerability%20Detection%20Configuration.png)
 *Vulnerability detection configuration in ossec.conf showing:*
 - **Enabled:** Yes (vulnerability detection active)
 - **Index Status:** Yes (indexing vulnerability data)
@@ -160,7 +160,7 @@ The project aims to develop practical SOC analyst skills including log analysis,
 ---
 
 ### 4. Vulnerability Dashboard - Comprehensive Assessment
-![Vulnerability Dashboard](images/04-vulnerability-dashboard.png)
+![Vulnerability Dashboard](https://github.com/aBdUl-AhaD02/Wazuh-SIEM-Implementation-Security-Monitoring/blob/main/Images/Vulnerability%20Dasboard.png)
 *Comprehensive vulnerability assessment results showing:*
 - **49 Critical** severity vulnerabilities
 - **663 High** severity vulnerabilities
@@ -195,7 +195,7 @@ The project aims to develop practical SOC analyst skills including log analysis,
 ---
 
 ### 5. Security Events - Audit Command Tracking
-![Audit Command Tracking](images/05-audit-command-tracking.png)
+![Audit Command Tracking](https://github.com/aBdUl-AhaD02/Wazuh-SIEM-Implementation-Security-Monitoring/blob/main/Images/Security%20Events.png)
 *Wazuh Discover interface showing 660 security events over 24 hours. The timeline shows concentrated activity at 21:00 and 12:00. Detailed audit log entry displays:*
 
 **Tracking netstat command execution:**
@@ -214,7 +214,7 @@ The project aims to develop practical SOC analyst skills including log analysis,
 ---
 
 ### 6. Security Alert Details - Alert Deep Dive
-![Alert Details](images/06-security-alert-details.png)
+![Alert Details](https://github.com/aBdUl-AhaD02/Wazuh-SIEM-Implementation-Security-Monitoring/blob/main/Images/Security%20Alert%20Detail.png)
 *Detailed security alert view for audit command execution showing:*
 
 **Alert Information:**
@@ -235,7 +235,7 @@ The project aims to develop practical SOC analyst skills including log analysis,
 ---
 
 ### 7. Linux Audit Rules Configuration
-![Audit Rules Configuration](images/07-audit-rules-configuration.png)
+![Audit Rules Configuration](https://github.com/aBdUl-AhaD02/Wazuh-SIEM-Implementation-Security-Monitoring/blob/main/Images/Audit%20Rules%20Configuration.png)
 *Custom audit rules configured in `/etc/audit/audit.rules` for comprehensive system monitoring:*
 ```bash
 # Buffer configuration
@@ -257,7 +257,7 @@ The project aims to develop practical SOC analyst skills including log analysis,
 ---
 
 ### 8. Agent Overview Dashboard - Comprehensive Monitoring
-![Agent Overview Dashboard](images/08-agent-overview-dashboard.png)
+![Agent Overview Dashboard](https://github.com/aBdUl-AhaD02/Wazuh-SIEM-Implementation-Security-Monitoring/blob/main/Images/Agent%20overview%20Dashboard.png)
 *Comprehensive agent monitoring dashboard displaying:*
 
 **Agent Information:**
@@ -315,7 +315,7 @@ The project aims to develop practical SOC analyst skills including log analysis,
 ---
 
 ### 9. File Integrity Monitoring Dashboard
-![FIM Dashboard](images/09-fim-dashboard.png)
+![FIM Dashboard](https://github.com/aBdUl-AhaD02/Wazuh-SIEM-Implementation-Security-Monitoring/blob/main/Images/FIM%20Dashboard.png)
 *File Integrity Monitoring dashboard showing comprehensive file change tracking:*
 
 **Alerts by Action Over Time:**
@@ -345,7 +345,7 @@ The project aims to develop practical SOC analyst skills including log analysis,
 ---
 
 ### 10. FIM Events Detail View
-![FIM Events Detail](images/10-fim-events-detail.png)
+![FIM Events Detail](https://github.com/aBdUl-AhaD02/Wazuh-SIEM-Implementation-Security-Monitoring/blob/main/Images/FIM%20Events%20Detail%20View.png)
 *Detailed File Integrity Monitoring events showing 4 hits over 24-hour period (Dec 21, 2025 @ 18:58:15.455 - Dec 22, 2025 @ 18:58:15.455):*
 
 **Event Details:**
@@ -389,7 +389,7 @@ The project aims to develop practical SOC analyst skills including log analysis,
 ---
 
 ### 11. Wazuh Alerts Discovery - 5,696 Events
-![Wazuh Alerts Discovery](images/11-wazuh-alerts-discovery.png)
+![Wazuh Alerts Discovery](https://github.com/aBdUl-AhaD02/Wazuh-SIEM-Implementation-Security-Monitoring/blob/main/Images/Wazuh%20Alert%20Discovery.png)
 *Wazuh Discover interface showing comprehensive security monitoring with **5,696 security events** analyzed over 24 hours (Dec 21, 2025 @ 19:00:33.506 - Dec 22, 2025 @ 19:00:33.506):*
 
 **Timeline Analysis:**
@@ -433,7 +433,7 @@ location: /proc/pressure/memory
 ---
 
 ### 12. Threat Hunting Dashboard - 5,806 Total Alerts
-![Threat Hunting Dashboard](images/12-threat-hunting-dashboard.png)
+![Threat Hunting Dashboard](https://github.com/aBdUl-AhaD02/Wazuh-SIEM-Implementation-Security-Monitoring/blob/main/Images/Threat%20Hunting%20Dashboard.png)
 *Advanced threat hunting dashboard displaying comprehensive security posture:*
 
 **Alert Summary:**
