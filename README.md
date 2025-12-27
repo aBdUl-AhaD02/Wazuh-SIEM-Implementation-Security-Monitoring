@@ -134,7 +134,7 @@ The project aims to develop practical SOC analyst skills including log analysis,
 ---
 
 ### 2. File Integrity Monitoring Configuration
-![FIM Configuration](https://github.com/aBdUl-AhaD02/Wazuh-SIEM-Implementation-Security-Monitoring/blob/main/Images/File%20Integirity%20Monitoring.png)
+![FIM Configuration](https://github.com/aBdUl-AhaD02/Wazuh-SIEM-Implementation-Security-Monitoring/blob/main/Images/File%20Integirity%20Monitoring%20configuration.png)
 *File Integrity Monitoring (FIM) configuration in `/var/ossec/etc/ossec.conf` showing:*
 - **Disabled:** No (FIM is enabled)
 - **Frequency:** 43200 seconds (12 hours scan interval)
